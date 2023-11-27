@@ -1,0 +1,355 @@
+.navbar {
+    
+   /* height: 5em; */
+    
+    z-index: 1;
+    
+    }
+    
+    li a span{
+        color: #f2f2f2;
+    }
+    center{
+       top:30%;
+       left:30%;
+        position: absolute;
+        font-size: 190px;
+        opacity:0.9;
+        border: 1px solid rgb(97, 93, 93);
+        height: 150px;
+        color: #332c2c;
+        font-weight :800px;
+        display: flex;
+        align-items: center;
+        border-radius: 0px 50px 15px 50px;
+        transition: 0.3s ease-in;
+        width: 40%;
+        box-shadow: 40px 40px;
+        
+    }
+    i{
+        font-weight: bold;
+        font-size: 3rem;
+        text-shadow: 2px 2px;
+        text-transform: uppercase;
+
+    }
+    img{
+        position:relative;
+        opacity: 0.8;
+    }
+    
+    @media screen and (max-width: 768px) {
+    
+    .navbar {
+    
+    /* margin-top: 60px; */
+   
+    
+    }
+    center{
+        height: 150px;
+        margin-left:-30%;
+        width:fit-content;
+       
+    }
+    
+    }
+    
+    @media screen and (max-width: 480px) {
+    
+    .navbar {
+    
+    /* margin-top: 30px; */
+    
+    }
+    center{
+      margin-left: -30%;
+    }
+   
+    }
+    
+    .logo {
+    
+    position: relative;
+    
+    z-index: 2;
+    
+    width: 250px;
+    
+    height: 200px;
+    
+    margin: 0 auto;
+    
+    background-color: #f2f2f2;
+    
+    text-align: center;
+    
+    }
+    
+    @media screen and (max-width: 768px) {
+    
+    .logo {
+    
+    width: 200px;
+    
+    height: 150px;
+    
+    }
+    center{
+      margin-left:-27%;
+    
+    }
+    
+    }
+    
+    @media screen and (max-width: 480px) {
+    
+    .logo {
+    
+    width: 100px;
+    
+    height: 100px;
+    
+    background-color: red;
+    
+    margin-left: 30px;
+    
+    }
+   
+
+    }
+    div.gallery {
+        border: 1px solid #ccc;
+        transition: 0.3s ease-in;
+
+      }
+      
+      div.gallery:hover {
+        border: 1px solid #777;
+        transform: scale(1.1);
+        transition: 0.3s ease-in;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+       
+      }
+      
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+       
+      }
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      /* Slideshow container */
+.slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color:#ccc;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active, .dot:hover {
+    background-color: #ccc;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+
+  footer{
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    
+    background: #111;
+    height: auto;
+    width: 98.7vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: red;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom p{
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+ }
+ .footer-bottom p a{
+   color:#44bae8;
+   font-size: 16px;
+   text-decoration: none;
+ }
+ .footer-bottom span{
+     text-transform: uppercase;
+     opacity: .4;
+     font-weight: 200;
+ }
+ .footer-menu{
+    float: right;
+  }
+  
+  .footer-menu ul{
+    display: flex;
+  }
+  
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    text-decoration: none;
+  }
+  
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+  @media (max-width:500px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+      .row {
+          flex-direction: column;
+      }
+
+      div[style*="flex-basis"] {
+          flex-basis: 100%;
+      }
+  }
