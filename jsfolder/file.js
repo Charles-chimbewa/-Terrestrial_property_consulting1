@@ -1,12 +1,12 @@
 var contaniers = [
     {
-      Upload: '../build3.jpg',
+      Upload: './build3.jpg',
     },
     {
-      Upload: '../build2.jpg',
+      Upload: './build2.jpg',
     },
     {
-      Upload: '../build.jpg',
+      Upload: './build.jpg',
     }
   ];
   
